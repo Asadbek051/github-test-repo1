@@ -1,0 +1,514 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    list-style: none;
+    text-decoration: none;
+}
+.body{
+    font-family: sans-serif;
+    font-weight: 120;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.navbar0 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+.list {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.navbar1 {
+    display: flex;
+    gap: 40px;
+}
+.navbar2 {
+    width: 160px;
+    height: 40px;
+    padding: 10px 15px;
+    border-radius: 7px;
+    border: 0cap;
+    background-color: #00ff0d;
+    color: #FFFFFF;
+    transition: all 0.5s ease-in-out;
+}
+.navbar2:hover{
+    background-color: #f4f4f5;
+    color: #FFF;
+}
+
+.navbar2:active {
+    background-color: #f4f4f4;
+    color: #FFF;
+}
+.h {
+    margin: 50px 20px;
+    display: flex;
+    gap: 130px;
+}
+.head1>input:hover {
+    background-color: rgb(0, 60, 128);
+    color: white;
+}
+
+.head1>input:active {
+    background-color: black;
+    color: white;
+}
+
+.head1>h1 {
+    width: 470px;
+    height: 78px;
+}
+.head1>p {
+    margin-top: 20px;
+    width: 465px;
+    height: 74px;
+}
+.head1>input {
+    width: 232px;
+    height: 40px;
+    border-radius: 5px;
+    background-color:#00ff0d;
+    border: 0cap;
+    color: white;
+    margin-top: 30px;
+}
+.mains {
+    margin: 50px;
+    text-align: center;
+    padding: 0px 10%;
+}
+
+.mains>h1 {
+    width: 719px;
+    height: 31px;
+    text-align: center;
+}
+
+.mains>p {
+    width: 719px;
+    height: 48px;
+}
+.cards {
+    display: flex;
+    gap: 100px;
+    margin: 5px 100px;
+}
+.card1 {
+    width: 33.3%;
+    height: 260px;
+    padding: 24px;
+    border-radius: 5px;
+    box-shadow: 1px 8px rgb(182, 206, 206);
+    transition: 0.5s ease-in-out;
+}
+.card1:hover{
+    background: #f4f4f4;
+    box-shadow: 8px 1px rgb(0, 60, 128);
+}
+.card2 {
+    width: 33.3%;
+    height: 260px;
+    padding: 24px;
+    border-radius: 5px;
+    box-shadow: 1px 8px rgb(182, 206, 206);
+    transition: 0.5s ease-in-out;
+}
+.card2:hover{
+    background: #f4f4f4;
+    box-shadow: 8px 0px rgb(0, 60, 128);
+}
+.card3 {
+    width: 33.3%;
+    height: 260px;
+    padding: 24px;
+    border-radius: 5px;
+    box-shadow: 1px 8px rgb(182, 206, 206);
+    transition: 0.5s ease-in-out;
+}
+.card3:hover{
+    background: #f4f4f4;
+    box-shadow: 8px 1px rgb(0, 60, 128);
+}
+.card20 {
+    display: flex;
+    gap: 150px;
+    padding: 50px 300px;
+}
+
+.card4 {
+    width: 320px;
+    height: 260px;
+    padding: 24px;
+    border-radius: 5px;
+    box-shadow: 1px 8px rgb(182, 206, 206);
+    transition: 0.5s ease-in-out;
+}
+.card4:hover{
+    background: #f4f4f4;
+    box-shadow: 8px 1px rgb(0, 60, 128);
+}
+
+.card5 {
+    width: 320px;
+    height: 260px;
+    padding: 24px;
+    border-radius: 5px;
+    box-shadow: 1px 8px rgb(182, 206, 206);
+    transition: 0.5s ease-in-out;
+}
+.card5:hover{
+    background: #f4f4f4;
+    box-shadow: 8px 1px rgb(0, 60, 128);
+    
+}
+
+.card6 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+
+.btn>button {
+    width: 157px;
+    height: 38px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color:#00ff0d;
+    border: 0cap;
+    color: white;
+    transition: all 0.4s ease-in-out;
+
+}
+
+.btn>button:hover {
+    background-color: rgb(0, 60, 128);
+    color: white;
+}
+
+.btn>button:active {
+    background-color: rgb(0, 60, 128);
+    color: white;
+}
+#content1 h1 {
+    padding: 50px 50px;
+}
+.main12 {
+    display: flex;
+    align-items: center;
+    gap: 300px;
+    margin: 5px 100px;
+    justify-content: space-between;
+}
+.p-1 {
+    float: right;
+    padding: 100px 10px;
+    width: 40%;
+}
+.p-1 h1 {
+    padding-bottom: 15px;
+}
+.main13 {
+    margin: 5px 100px;
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+.p-2 {
+    padding: 100px 10px;
+    width: 40%;
+}
+.p-2 h1 {
+    padding-bottom: 15px;
+}
+.main14 {
+    display: flex;
+    align-items: center;
+    gap: 300px;
+    margin: 5px 100px;
+}
+
+.p-3 {
+    padding: 100px 10px;
+    width: 40%;
+}
+.p-3 h1 {
+    padding-bottom: 15px;
+}
+.main15{
+    display: flex;
+    align-items: center;
+    gap: 300px;
+    margin: 5px 100px;
+}
+.p-4 {
+    padding: 100px 10px;
+    width: 40%;
+}
+.p-4 h1 {
+    padding-bottom: 15px;
+}
+.main16 {
+    display: flex;
+    align-items: center;
+    gap: 300px;
+    margin: 5px 100px;
+}
+.p-5 {
+    padding: 100px 10px;
+    width: 40%;
+}
+.p-5 h1 {
+    padding-bottom: 15px;
+}
+.button {
+    margin: 20px 500px;
+    width: 167px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.button>button {
+    width: 167px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #00ff0d;
+    border: 0cap;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+.button>button:hover {
+    background: rgb(0, 60, 128);
+    color: white;
+}
+
+.button>button:active {
+    background: black;
+    color: white;
+}
+.footer {
+    width: 1,300px;
+    height: 543px;
+    margin: 50px 50px 0px 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 60, 128);
+}
+
+.footer>h1 {
+    width: 203px;
+    height: 31px;
+    justify-content: center;
+}
+.footer1>h1{
+    color: #FFFFFF;
+    padding: 15px;
+    text-align: center;
+}
+.footer1>p{
+    color: #FFFFFF;
+    text-align: center;
+}
+.footer>p {
+    width: 719px;
+    height: 48px;
+    padding: 10px;
+}.footer2 {
+    width: 348px;
+    height: 350px;
+    margin: 0 auto;
+    align-items: center;
+    background-color: #FFFFFF;
+
+}
+
+.footer2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer5 {
+    width: 300px;
+    height: 56px;
+    padding: 16px;
+    margin: 20px;
+    gap: 16px;
+    border-radius: 5px;
+    background-color: #F3F3F3;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer25 {
+    width: 300px;
+    height: 56px;
+    padding: 16px;
+    margin: 20px;
+    gap: 16px;
+    border-radius: 5px;
+    background: #F3F3F3;
+    display: flex;
+    flex-direction: column;
+}
+.footer2 select {
+    width: 300px;
+    height: 56px;
+    padding: 16px;
+    margin: 20px;
+    gap: 16px;
+    border-radius: 5px;
+    background: #F3F3F3;
+    display: flex;
+    flex-direction: column;
+}
+
+.button1 {
+    margin: 0px 85px;
+    width: 167px;
+    height: 40px;
+    border-radius: 5px;
+    
+    
+}
+
+.button1>button {
+    width: 167px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(0, 60, 128);
+    border: 0cap;
+    color: white;
+    transition: all 0.4s ease-in-out;
+}
+
+.button1>button:hover {
+    background: #f4f4f4;
+    color: rgb(80, 0, 0);
+}
+
+.footer1 {
+    margin: 50px 200px;
+    justify-content: space-between;
+}
+
+.footer1>h1 {
+    margin: 20px 200px;
+}
+
+.footer25 {
+    width: 300px;
+    height: 56px;
+    padding: 16px;
+    margin: 20px;
+    gap: 16px;
+    border-radius: 5px;
+    background: #F3F3F3;
+    display: flex;
+    flex-direction: column;
+}
+.footers{
+    width: 1100px;
+    height: 338px;
+    margin: 0 auto;
+    padding: 50px 100px;
+    display: flex;
+    background-color: black;
+    gap: 100px;
+}
+.footer7{
+    width: 320px;
+    height: 162px;
+}
+.footer7>h1{
+    width: 149px;
+    height: 26px;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.footer7>p{
+    width: 320px;
+    height: 120px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.footer9{
+    width: 143px;
+    height: 226px;
+    cursor: pointer;
+}
+.footer9>h1{
+    width: 143px;
+    height: 26px;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.footer9>p{
+    width: 87px;
+    height: 24px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.footer10{
+    width: 142px;
+    height: 130px;
+    cursor: pointer;
+}
+.footer10>h1{
+    width: 142px;
+    height: 26px;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.footer10>img{
+    width: 22px;
+    height: 24px;
+}
+
+.footer16>p{
+    width: 70px;
+    height: 24px;
+    color: #FFFFFF;
+}
+.footer17>p{
+    width: 70px;
+    height: 24px;
+    color: #FFFFFF;
+}
+.footer18>p{
+    width: 70px;
+    height: 24px;
+    color: #FFFFFF;
+}
+.footer16{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.footer17{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.footer18{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.mains p {
+    padding-top: 20px;
+}
+
+

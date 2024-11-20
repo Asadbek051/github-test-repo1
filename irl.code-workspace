@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Imtihon IT Park"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "irl"
+	}
+}
